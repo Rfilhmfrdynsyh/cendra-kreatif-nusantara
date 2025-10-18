@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="detail-page-title">Detail Produk - PT CENDRA KREATIF NUSANTARA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">PT CENDRA <span>KREATIF NUSANTARA</span></div>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                    <li><a href="index.html#product-categories">Kategori Produk</a></li>
+                    <li><a href="index.html#contact">Kontak</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="product-detail-page" class="product-detail-page">
+        <div class="container">
+            <div class="detail-grid">
+                
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img id="main-product-img" src="fp/handbag.png" alt="Rogy - Gambar Utama">
+                        <button class="nav-arrow left-arrow"><i class="fas fa-chevron-left"></i></button>
+                        <button class="nav-arrow right-arrow"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="thumbnail-images" id="thumbnail-images">
+                        <img src="fp/handbag.png" alt="Thumbnail 1" class="active-thumb">
+                        <img src="fp/Box.png" alt="Thumbnail 2">
+                        <img src="fp/EMONEY.png" alt="Thumbnail 3">
+                    </div>
+                </div>
+                
+                <div class="product-info-detail">
+                    <h1 id="detail-product-name">Rogy - Pattern Series</h1>
+                    
+                    <div class="product-meta">
+                        <h3 class="product-detail-subtitle">Spesifikasi Detail</h3>
+                        <ul id="product-specs">
+                            <li>• 2 kompartemen di bagian depan</li>
+                            <li>• Pengait besi</li>
+                            <li>• Branding menggunakan teknik Sablon, Emboss, Laser</li>
+                            <li>• Material: Kulit Sintetis Premium</li>
+                        </ul>
+                    </div>
+
+                    <div class="sales-contact">
+                        <div class="contact-card">
+                            <img src="fp/profile.jpg" alt="Sally Online">
+                            <div class="contact-text">
+                                <span class="name">Rifa ilham ferdiansyah <span class="online">Online</span></span>
+                                <a href="https://wa.me/6289653648383?text=Halo%20Sally%2C%20saya%20tertarik%20dengan%20produk%20Rogy%20-%20Pattern%20Series." class="btn btn-chat">Silahkan Klik Disini untuk Chat WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="qty-and-action">
+                        <input type="number" value="1" min="1" class="qty-input">
+                        <button class="btn add-to-cart-lg">Add to cart (Custom Order)</button>
+                    </div>
+                    
+                    <p class="product-category-link">
+                        Category: <a href="product-list.html?category=pattern-series">Pattern Series</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="related-products">
+                <h2 class="section-title" style="margin-top: 50px;">Related products</h2>
+                <div class="products-grid">
+                    <div class="product-card list-card animate"><a href="product-detail.html?id=nurra" class="product-link"><div class="product-image"><img src="fp/EMONEY.png"></div><div class="product-info"><h3 class="product-title">Nurra</h3><p class="product-description">Pattern Series</p></div></a><button class="add-to-cart-btn">+</button></div>
+                    <div class="product-card list-card animate"><a href="product-detail.html?id=vertus" class="product-link"><div class="product-image"><img src="fp/tumbler.png"></div><div class="product-info"><h3 class="product-title">Vertus</h3><p class="product-description">Pattern Series</p></div></a><button class="add-to-cart-btn">+</button></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>PT CENDRA KREATIF NUSANTARA</h4>
+                    <p>Mitra kreatif terpercaya untuk kebutuhan souvenir kantor custom berkualitas tinggi dengan desain eksklusif.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Link Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="index.html#product-categories">Produk Kami</a></li>
+                        <li><a href="#">Proses Pemesanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col contact-footer-col">
+                    <h4>Hubungi Kami</h4>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Pondok Aren, Tangerang Selatan, Indonesia</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+62 896-5364-8383</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>ptcendrakreatifnusantara@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Senin - Jumat: 09:00 - 17:00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 PT CENDRA KREATIF NUSANTARA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6289653648383" class="whatsapp-float" target="_blank">
+        <span class="chat-bubble">
+            Chat Sekarang! Dibalas kurang dari 1 menit
+        </span>
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
