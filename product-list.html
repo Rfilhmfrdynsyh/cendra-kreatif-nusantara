@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Daftar Produk - PT CENDRA KREATIF NUSANTARA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">PT CENDRA <span>KREATIF NUSANTARA</span></div>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                    <li><a href="index.html#product-categories">Kategori Produk</a></li>
+                    <li><a href="index.html#contact">Kontak</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="product-listing-hero">
+        <div class="container">
+            <h1 id="listing-title">Semua Produk</h1>
+            <p>Showing all results</p>
+        </div>
+    </section>
+
+    <section id="product-list-page" class="product-list-page">
+        <div class="container product-list-container">
+            
+            <aside class="sidebar">
+                <h3>Filter Kategori</h3>
+                <ul class="filter-list" id="sidebar-categories">
+                    <li class="active"><a href="product-list.html?category=all">All Products</a></li>
+                    <li><a href="product-list.html?category=agenda">Agenda</a></li>
+                    <li><a href="product-list.html?category=apparel">Apparel</a></li>
+                    <li><a href="product-list.html?category=tumbler">Tumbler</a></li>
+                    <li><a href="product-list.html?category=pulpen">Pulpen</a></li>
+                </ul>
+            </aside>
+            
+            <main class="product-content">
+                <div class="sort-bar">
+                    <select id="sort-by">
+                        <option value="default">Sort by latest</option>
+                        <option value="price-asc">Sort by price: low to high</option>
+                        <option value="price-desc">Sort by price: high to low</option>
+                    </select>
+                </div>
+
+                <div class="products-grid" id="product-listing-grid">
+                    <div class="product-card list-card animate">
+                         <a href="product-detail.html?id=Tumbler" class="product-link">
+                            <div class="product-image">
+                                <img src="fp/tumbler.png" alt="Tumbler">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Tumbler</h3>
+                                <p class="product-description">Tumbler</p>
+                            </div>
+                        </a>
+                        <button class="add-to-cart-btn">+</button>
+                    </div>
+
+                    <div class="product-card list-card animate">
+                        <a href="product-detail.html?id=rogy" class="product-link">
+                            <div class="product-image">
+                                <img src="fp/agenda.png" alt="Agenda">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Agenda</h3>
+                                <p class="product-description">Agenda</p>
+                            </div>
+                        </a>
+                        <button class="add-to-cart-btn">+</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>PT CENDRA KREATIF NUSANTARA</h4>
+                    <p>Mitra kreatif terpercaya untuk kebutuhan souvenir kantor custom berkualitas tinggi dengan desain eksklusif.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Link Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="index.html#product-categories">Produk Kami</a></li>
+                        <li><a href="#">Proses Pemesanan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col contact-footer-col">
+                    <h4>Hubungi Kami</h4>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Pondok Aren, Tangerang Selatan, Indonesia</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+62 896-5364-8383</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>ptcendrakreatifnusantara@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Senin - Jumat: 09:00 - 17:00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 PT CENDRA KREATIF NUSANTARA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6289653648383" class="whatsapp-float" target="_blank">
+        <span class="chat-bubble">
+            Chat Sekarang! Dibalas kurang dari 1 menit
+        </span>
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
