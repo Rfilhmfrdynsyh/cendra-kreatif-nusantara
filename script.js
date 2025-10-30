@@ -481,8 +481,7 @@ function handleProductDetail() {
     const encodedChatText = encodeURIComponent(chatText);
     const waBaseUrl = 'https://wa.me/6289653648383?text=';
     
-    if (chatLink1) chatLink1.href = `${waBaseUrl}Halo%20Sally%2C%20${encodedChatText}`;
-    if (chatLink2) chatLink2.href = `${waBaseUrl}Halo%20Rey%2C%20${encodedChatText}`;
+    if (chatLink1) chatLink1.href = `${waBaseUrl}Halo%20Rifa%2C%20${encodedChatText}`;
 }
 
 
