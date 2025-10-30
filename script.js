@@ -477,7 +477,7 @@ function handleProductDetail() {
     }
     
     // 5. Update Link Chat WhatsApp
-    const chatText = `Halo, saya tertarik dengan produk ${product.name} - ${formatSlugToTitle(product.category)}.`;
+    const chatText = `saya tertarik dengan produk ${product.name} - ${formatSlugToTitle(product.category)}.`;
     const encodedChatText = encodeURIComponent(chatText);
     const waBaseUrl = 'https://wa.me/6289653648383?text=';
     
