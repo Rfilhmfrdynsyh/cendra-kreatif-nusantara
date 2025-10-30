@@ -6,10 +6,130 @@ const PRODUCTS = {
     'Tumbler': { 
         name: 'Tumbler', 
         category: 'Tumbler',
-        images: ['fp/tumbler.png', 'fp/tumbler2.png', 'fp/tumbler3.png'],
+        images: ['fp baru/tmblr kps1.png', 'fp baru/tmblr kps2.png', 'fp baru/tmblr kps3.png'],
         specs: ['2 kompartemen', 'Pengait besi', 'Branding Sablon', 'Material: Stainless Steel'],
         categoryLink: 'product-list.html?category=tumbler'
     },
+    'tumbler 02': { 
+        name: 'Tumbler 02', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr ckt1.png', 'fp baru/tmblr ckt2.png', 'fp baru/tmblr ckt3.png'],
+        specs: ['Desain Elegan', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'Tumbler 03': { 
+        name: 'Tumbler 03', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr pnk1.png', 'fp baru/tmblr pnk2.png', 'fp baru/tmblr pnk3.png'],
+        specs: ['Desain Etnik', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 04': { 
+        name: 'Tumbler 04', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr sdt1.png', 'fp baru/tmblr sdt2.png',],
+        specs: ['Desain Modern', 'Material: Stainless Steel', 'Kapasitas: 550ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'Tumbler 05': { 
+        name: 'Tumbler 05', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr kcl1.png', 'fp baru/tmblr kcl2.png', 'fp baru/tmblr kcl3.png'],
+        specs: ['Desain Minimalis', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 06': { 
+        name: 'Tumbler 06', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr pth1.png', 'fp baru/tmblr pth2.png', 'fp baru/tmblr pth3.png'],
+        specs: ['Desain Artistik', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tmblr 07': {
+        name: 'Tumbler 07', 
+        category: 'Tumbler',
+        images: ['fp baru/tmbtr bnig1.png'],
+        specs: ['Desain Unik', 'Material: Stainless Steel', 'Kapasitas: 550ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tmblr 08': { 
+        name: 'Tumbler 08', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr wrwn1.png', 'fp baru/tmblr wnwr2.png'],
+        specs: ['Desain Etnik', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tmblr 09': { 
+        name: 'Tumbler 09', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr ttph1.png', 'fp baru/tmblr ttph2.png', 'fp baru/tmblr ttph3.png'],
+        specs: ['Desain Modern', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tmblr 10': { 
+        name: 'Tumbler 10', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr ttpgl1.png', 'fp baru/tmblr ttpgl2.png'],
+        specs: ['Desain Ceria', 'Material: Stainless Steel', 'Kapasitas: 550ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'Tmblr 11': { 
+        name: 'Tumbler 11', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr ttpbl1.png', 'fp baru/tmblr ttpbl2.png', 'fp baru/tmblr ttpbl3.png'],
+        specs: ['Desain Elegan', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 12': { 
+        name: 'Tumbler 12', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr mr1.png', 'fp baru/tmblr mr2.png', 'fp baru/tmblr mr3.png'],
+        specs: ['Desain Artistik', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 13': { 
+        name: 'Tumbler 13', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr htm1.png', 'fp baru/tmblr htm2.png', 'fp baru/tmblr htm3.png'],
+        specs: ['Desain Modern', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 14': { 
+        name: 'Tumbler 14', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr hj3.png', 'fp baru/tmblr hj2.png', 'fp baru/tmblr hj1.png'],
+        specs: ['Desain Minimalis', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 15': { 
+        name: 'Tumbler 15', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr hand1.png' , 'fp baru/tmblr hand2.png', 'fp baru/tmblr hand3.png'],
+        specs: ['Desain Unik', 'Material: Stainless Steel', 'Kapasitas: 550ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 16': { 
+        name: 'Tumbler 16', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr gngn1.png', 'fp baru/tmblr gtgn2.png', 'fp baru/tmblr gtgn3.png'],
+        specs: ['Desain Ceria', 'Material: Stainless Steel', 'Kapasitas: 600ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 17': { 
+        name: 'Tumbler 17', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr bwlng1.png', 'fp baru/tmblr bwlng2.png', 'fp baru/tmblr bwlng3.png'],
+        specs: ['Desain Etnik', 'Material: Stainless Steel', 'Kapasitas: 500ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    'tumbler 18': { 
+        name: 'Tumbler 18', 
+        category: 'Tumbler',
+        images: ['fp baru/tmblr br1.png', 'fp baru/tmblr br2.png',],
+        specs: ['Desain Artistik', 'Material: Stainless Steel', 'Kapasitas: 550ml'],
+        categoryLink: 'product-list.html?category=tumbler'
+    },
+    
     'Handbag': { 
         name: 'Handbag', 
         category: 'Handbag',
@@ -45,10 +165,11 @@ const PRODUCTS = {
         specs: ['Set Hadiah Eksklusif', 'Isi: Tumbler, Pulpen, Notebook', 'Kemasan: Hardbox Premium'],
         categoryLink: 'product-list.html?category=Hardbox'
     },
+
     'giftset 02': {
         name: 'Giftset 02',
         category: 'Hardbox',
-        images: ['fp/giftsetbox2.png', 'fp/giftsetbox2-2.png', 'fp/giftsetbox2-3.png'],
+        images: ['fp/giftsetbox2.png',],
         specs: ['Set Hadiah Elegan', 'Isi: Handbag, Payung, Emoney', 'Kemasan: Hardbox Eksklusif'],
         categoryLink: 'product-list.html?category=Hardbox'
     },
@@ -59,6 +180,55 @@ const PRODUCTS = {
         specs: ['Set Hadiah Mewah', 'Isi: Tumbler, Handbag, Pulpen, Payung', 'Kemasan: Hardbox Mewah'],
         categoryLink: 'product-list.html?category=Hardbox'
     },
+     'Giftset 04': { 
+        name: 'Giftset 04', 
+        category: 'Hardbox',
+        images: ['fp/gfst pg1.png', 'fp/gfst pg2.png', 'fp/gfst pg3.png'],
+        specs: ['Set Hadiah Eksklusif', 'Isi: PowerBank, Jam Meja', 'Kemasan: Hardbox Premium']
+    },
+    'giftset 05': {
+        name: 'Giftset 05',
+        category: 'Hardbox',
+        images: ['fp baru/gfst ptmna1.png', 'fp baru/gfst ptmna2.png', 'fp baru/gfst ptmna3.png'],
+        specs: ['Set Hadiah Premium', 'Isi: Tumbler, Handbag, Emoney', 'Kemasan: Hardbox Eksklusif'],
+        categoryLink: 'product-list.html?category=Hardbox'
+    },
+    'giftset 06': {
+        name: 'Giftset 06',
+        category: 'Hardbox',
+        images : ['fp baru/gfst ag pen1.png', ],
+        specs : ['Set Hadiah Elegan', 'Isi: Agenda, Pulpen, Payung', 'Kemasan: Hardbox Mewah'],
+        categoryLink: 'product-list.html?category=Hardbox'
+    },
+    'giftset 07': {
+        name: 'Giftset 07',
+        category: 'Hardbox',
+        images: ['fp baru/gfst 3itm1.png', ],
+        specs: ['Set Hadiah Eksklusif', 'Isi: Tumbler, Handbag, PowerBank', 'Kemasan: Hardbox Premium'],
+        categoryLink: 'product-list.html?category=Hardbox'
+    },
+    'giftset 08': {
+        name: 'Giftset 08',
+        category: 'Hardbox',
+        images: ['fp baru/gfst 2itm 1.png', ],
+        specs: ['Set Hadiah Spesial', 'Isi: Tumbler, Handbag, Pulpen', 'Kemasan: Hardbox Spesial'],
+        categoryLink: 'product-list.html?category=Hardbox'
+    },
+    'Totebag': { 
+        name: 'Totebag', 
+        category: 'Totebag',
+        images: ['fp/totebag.png', 'fp/totebag2.png', 'fp/totebag3.png'],
+        specs: ['Ukuran Besar', 'Desain Etnik', 'Material: Kanvas Tebal'],
+        categoryLink: 'product-list.html?category=Totebag'
+    },
+    'Pattern Series - Loopy': { 
+        name: 'Pattern Series - Loopy', 
+        category: 'Pattern Series',
+        images: ['fp/loopy.png', 'fp/loopy2.png', 'fp/loopy3.png'],
+        specs: ['Desain Unik Loopy', 'Material: Kanvas Tebal', 'Cocok untuk berbagai keperluan'],
+        categoryLink: 'product-list.html?category=Pattern Series'
+    },
+   
     // ... produk lainnya
 
     // Tambahkan produk dummy untuk kategori baru
@@ -89,6 +259,8 @@ const ALL_CATEGORY_SLUGS = [
     'Hardbox', 
     'pulpen', 
     'payung', 
+    'Pattern Series',
+    'Totebag',
 ];
 
 
@@ -226,10 +398,6 @@ function handleProductList() {
         
         // Cek kategori utama (pattern-series, gift-set, dll)
         if (product.category === currentCategory) return true;
-        
-        // Cek kategori umum (agenda, tumbler, pulpen, dll) - HANYA SIMULASI!
-        if (currentCategory === 'agenda' && ['rogy'].includes(id)) return true;
-        if (currentCategory === 'tumbler' && ['vertus'].includes(id)) return true;
         
         return false;
     });
